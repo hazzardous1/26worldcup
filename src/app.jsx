@@ -7,6 +7,7 @@ const NETWORK_COLORS = {
   Universo: { bg: "#008C45", text: "#fff", label: "UNIV" },
 };
 
+
 const STAGE_ORDER = ["Group Stage", "Round of 32", "Round of 16", "Quarterfinals", "Semifinals", "Final"];
 
 const games = [
