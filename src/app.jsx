@@ -173,7 +173,7 @@ export default function App() {
   const btn = (active) => ({ background: active ? "#f59e0b" : "#1f2937", color: active ? "#000" : "#9ca3af", border: "none", borderRadius: "20px", padding: "6px 12px", fontSize: "12px", fontWeight: active ? 700 : 400, cursor: "pointer", whiteSpace: "nowrap" });
   const toMin = t => { const [time, ap] = t.split(" "); let [h, m] = time.split(":").map(Number); if (ap === "PM" && h !== 12) h += 12; if (ap === "AM" && h === 12) h = 0; return h * 60 + m; };
   return (
-    <div style={{ background: "#0a0f1e", minHeight: "100vh", fontFamily: "'Inter',-apple-system,sans-serif", color: "#f3f4f6", maxWidth: "100%" }}>
+    <div style={{ background: "#0a0f1e", minHeight: "100vh", fontFamily: "'Inter',-apple-system,sans-serif", color: "#f3f4f6", maxWidth: "480px", margin: "0 auto" }}>  
       <div style={{ background: "linear-gradient(135deg,#0a0f1e,#1a1040)", padding: "20px 16px 0", position: "sticky", top: 0, zIndex: 100, borderBottom: "1px solid #1f2937" }}>
        
       maxWidth: "100%"
