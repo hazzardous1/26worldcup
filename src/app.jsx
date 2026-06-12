@@ -176,9 +176,7 @@ export default function App() {
     <div style={{ background: "#0a0f1e", minHeight: "100vh", fontFamily: "'Inter',-apple-system,sans-serif", color: "#f3f4f6", maxWidth: "480px", margin: "0 auto" }}>  
       <div style={{ background: "linear-gradient(135deg,#0a0f1e,#1a1040)", padding: "20px 16px 0", position: "sticky", top: 0, zIndex: 100, borderBottom: "1px solid #1f2937" }}>
        
-      maxWidth: "100%"
-
-         <div style={{ display: "flex", alignItems: "center", gap: "10px", marginBottom: "12px" }}>
+      <div style={{ display: "flex", alignItems: "center", gap: "10px", marginBottom: "12px" }}>
           <span style={{ fontSize: "28px" }}>⚽</span>
           <div>
             <div style={{ fontSize: "18px", fontWeight: 800, color: "#fff" }}>FIFA World Cup 2026</div>
